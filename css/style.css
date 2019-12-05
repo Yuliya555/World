@@ -1,0 +1,58 @@
+html{
+	height: 100%;
+}
+
+body{
+	background: url("images/map.jpg");
+	min-height: 100%;
+	display: flex;
+}
+
+nav.navbar{
+	background-color: #00bfa5;
+}
+
+#content{
+	flex: 1;
+	margin-top: 56px;
+}
+
+#main{
+	background-color: rgba(255, 255, 255, 0.9);
+	height: 100%;
+}
+
+.bg_card{
+	background-color: rgba(255, 255, 255, 0.6);	
+}
+
+#show_add_country_btn{
+	color: #00bfa5;
+	border-color: #00bfa5;
+	margin-top: 15px;
+}
+
+#collapseExample{
+		margin-top: 15px;
+}
+
+#show_add_country_btn:hover, #country_send_ajax_btn:hover {
+	color: #fff;
+	background-color: #00bfa5;
+	border-color: #00bfa5;
+}
+
+#show_add_country_btn:focus, #show_add_country_btn.focus, #country_send_ajax_btn:focus, #country_send_ajax_btn.focus {
+	box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5);
+}
+
+#show_add_country_btn.disabled, #show_add_country_btn:disabled {
+	color: #00bfa5;
+	background-color: transparent;
+}
+
+#country_send_ajax_btn, #country_send_ajax_btn.disabled, #country_send_ajax_btn:disabled {
+	color: #fff;
+	background-color: #00bfa5;
+	border-color: #00bfa5;
+}
